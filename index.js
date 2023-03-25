@@ -4,8 +4,6 @@ const span = cstm_span.querySelector('span');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let clickCount = 0;
 
-let setCount = 12;
-
 document.addEventListener('mousemove', async (e) => {
     await sleep(200);
     // console.log(e.pageX);

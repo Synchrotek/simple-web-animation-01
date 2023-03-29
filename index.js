@@ -12,8 +12,6 @@ document.addEventListener('mousemove', async (e) => {
     cstm_pointer.style.top = `${e.pageY}px`;
 });
 
-var newVal = true;
-
 document.addEventListener('click', () => {
     if (clickCount == 0) {
         cstm_span.style.color = '#F273E6';

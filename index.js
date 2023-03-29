@@ -12,7 +12,7 @@ document.addEventListener('mousemove', async (e) => {
     cstm_pointer.style.top = `${e.pageY}px`;
 });
 
-
+var newVal = false;
 
 document.addEventListener('click', () => {
     if (clickCount == 0) {

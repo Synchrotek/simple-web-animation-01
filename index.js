@@ -18,7 +18,7 @@ document.addEventListener('click', () => {
         span.innerHTML = 'The world is a beatiful place';
     } else if (clickCount == 1)
         span.innerHTML = 'The world is a beatiful place<br>with U in It';
-    else span.innerHTML = 'Happy Life<br>✌<br>[ refresh ]';
+    else span.innerHTML = 'Happy Life Ahead<br>✌<br>[ refresh ]';
     clickCount++;
 });
 

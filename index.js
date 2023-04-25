@@ -21,4 +21,3 @@ document.addEventListener('click', () => {
     else span.innerHTML = 'Happy Life Ahead<br>✌<br>[ refresh ]';
     clickCount++;
 });
-

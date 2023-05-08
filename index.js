@@ -5,7 +5,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 let clickCount = 0;
 
 document.addEventListener('mousemove', async (e) => {
-    await sleep(150);
+    await sleep(200);
     // console.log(e.pageX);
     cstm_pointer.style.opacity = "10";
     cstm_pointer.style.left = `${e.pageX}px`;
